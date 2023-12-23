@@ -1,0 +1,10 @@
+{
+	"name" : "RBXHaxe",
+	"url" : "https://github.com/ThePlank/RBXHaxe",
+	"tags": ["Lua", "Roblox"],
+	"license" : "MIT",
+	"contributors" : ["EmptySet", "plankdev"],
+	"description" : "Roblox external library support.",
+	"version" : "1.0.0",
+	"releasenote" : ""
+}

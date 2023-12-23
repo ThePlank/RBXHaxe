@@ -91,7 +91,7 @@ module.exports = class Class{
                     case "float":
                     case "double":
                         return "Float";
-                    case "void":
+                    case "void" | null:
                         return "Void";
                     default:
                         console.log("Something went horribly wrong while processing return value primitives");

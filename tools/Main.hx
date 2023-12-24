@@ -18,6 +18,7 @@ class Main {
 				Sys.println('rebuild - rebuilds the library to use the latest roblox api version');
 				Sys.println(':c_:');
 				return;
+			case ':c_:': Sys.command('start', ['', 'https://raw.githubusercontent.com/ThePlank/RBXHaxe/master/c_.png']);
 		}
 		
 		Sys.println('unknown command');

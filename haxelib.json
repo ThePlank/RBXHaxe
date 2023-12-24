@@ -6,5 +6,6 @@
 	"contributors" : ["EmptySet", "plankdev"],
 	"description" : "Roblox external library support.",
 	"version" : "1.0.0",
-	"releasenote" : ""
+	"releasenote" : "",
+	"main" : "tools.Main"
 }

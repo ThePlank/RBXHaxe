@@ -1,10 +1,4 @@
-node_modules/
-.git/
-.vscode/
-RBXHaxeBackup/
-rbxHaxeGenerated/
-ClassJsonDump/
-EnumJsonDump/
+rbxhaxe/
 *.sublime-workspace
 *.sublime-project
 rawJsonDump.json

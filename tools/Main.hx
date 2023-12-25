@@ -1,5 +1,7 @@
 package tools;
 
+import tools.generator.Generator;
+
 class Main {
 	public function new() {
 		var args:Array<String> = Sys.args();
@@ -19,6 +21,9 @@ class Main {
 				Sys.println(':c_:');
 				return;
 			case ':c_:': Sys.command('start', ['', 'https://raw.githubusercontent.com/ThePlank/RBXHaxe/master/c_.png']); return;
+			case 'rebuild':
+				Generator.generate();
+				return;
 		}
 		
 		Sys.println('unknown command');
